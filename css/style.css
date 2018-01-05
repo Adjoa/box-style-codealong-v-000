@@ -139,6 +139,7 @@ img, video, audio, iframe, table, form {
 }
 
 /*////////// HEADER //////////*/
+
 header {
   margin: 0 0 30px;
 }
@@ -146,11 +147,26 @@ header {
 
 /*////////// NAVBAR //////////*/
 
+#navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 2;
+  border-bottom: 1px solid #ccc;
+  text-align: center;
+}
 
+#navbar nav {
+  border-left: 1px solid #ccc;
+}
+
+#navbar nav a {
+  display: inline-block;
+  width: 16.6666667;
+}
 
 /*////////// LOGO //////////*/
-
-
 
 #logo h1 {
   font-family: 'Clicker Script', cursive;
